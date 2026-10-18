@@ -5,8 +5,8 @@ public class Fermat{
 		int c=2;
 		int n=2;
 		if(n>=2 && Math.pow(a,n)+Math.pow(b,n)==Math.pow(c,n)){
-			System.out.println ("true");
+			System.out.println ("Holy smokes, Fermat was wrong!");
 		}else{
-			System.out.println ("false");
+			System.out.println ("No, that doesn’t work.");
 			}
 	}}
